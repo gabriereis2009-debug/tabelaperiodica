@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-image: url(stars.gif);
+}
+
+
+table{
+    border: solid 2px rgb(255, 255, 255);  
+    height: 100vh;
+    width: 100%;
+}
+
+
+td{
+    width: 5%;
+    height: 6.3vh;
+    background-color: transparent;
+    background-image: none;
+}
+
+
+.borda  { border: solid;
+text-align: center;
+border-radius: 10px;
+color: wheat;}
+
+
+
+.naometais{
+    background-color:transparent;
+    color: #b3d76a;
+}
+
+
+.gasesnobres{
+    background-color:transparent;
+    color: #67afde;
+}
+
+
+.metaistransicao{
+    background-color:transparent;
+    color: #f2b0b0;
+}
+
+
+.metaisalcalinos{
+    background-color: transparent;
+    color: #f5c95e;
+}
+
+
+.metaisalcalinosterroros{
+    background-color:transparent;
+    color: #efe55b;
+}
+
+
+.outrosmetais{
+    background-color: transparent;
+    color: #a2c6d2;
+}
+
+
+.semimetais{
+    background-color:transparent;
+    color: #66c4bc;
+}
+
+
+.halogenios{
+    background-color: transparent;
+    color: #a7dff3;
+}
+
+
+.latanideos{
+    background-color: rgb(0, 0, 0);
+    color: rgb(151, 215, 225);
+}
+.actinidios{
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 189, 216);
+}
+.leg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.borda:hover{
+    transform: scale(1.4);
+    z-index: 10;
+    box-shadow: 0 0 15px;
+
+}
+
+div {
+    text-align: left;
+}
